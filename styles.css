@@ -1,18 +1,45 @@
 * {
   font-family: 'Figtree', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  background: #34495E;
+  color: #FFFFFF;
 }
 
 .btn {
-  background-color: aliceblue;
-  padding: .5rem 1rem;
+  background-color: #16A085;
+  color: #FFFFFF;
+  padding: 1rem 2rem;
   text-align: center;
   border-radius: .25rem;
+  margin: 1rem auto;
+  width: 25vw;
 }
 
 .btn:hover {
   cursor: pointer;
 }
 
+.result-container {
+  background: #ECF0F1;
+  color: #2C3E50;
+  border-radius: .25rem;
+  padding: 5rem 10rem;
+  width: 50vw;
+}
+
 .answer {
-  color: green;
+  color: 2C3E50;
 }
