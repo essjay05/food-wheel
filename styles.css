@@ -1,0 +1,18 @@
+* {
+  font-family: 'Figtree', sans-serif;
+}
+
+.btn {
+  background-color: aliceblue;
+  padding: .5rem 1rem;
+  text-align: center;
+  border-radius: .25rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.answer {
+  color: green;
+}
